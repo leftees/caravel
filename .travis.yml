@@ -1,10 +1,10 @@
 
 language: python
-  apt:
-    sources:
-      - deadsnakes
-    packages:
-      - python3.5
+apt:
+  sources:
+    - deadsnakes
+  packages:
+    - python3.5
 cache:
   directories:
     - $HOME/.wheelhouse/
