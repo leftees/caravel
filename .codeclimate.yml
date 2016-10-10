@@ -5,6 +5,7 @@ engines:
     enabled: false
   eslint:
     enabled: true
+    channel: "eslint-2"
     config:
       config: caravel/assets/.eslintrc
   pep8:
